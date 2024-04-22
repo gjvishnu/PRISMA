@@ -14,6 +14,11 @@ const resolvers = {
         characters: () => characters,
     },
 
+Mutation : {
+    addUsers : (_,{detailsinp})=>
+     console.log(detailsinp)
+}
+
   };
   
   module.exports = resolvers;

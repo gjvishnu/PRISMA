@@ -7,6 +7,7 @@ const typeDefs = gql`
   type users {
     name : String
     image : String
+    
   }
 
   input UserInput{
@@ -16,7 +17,6 @@ const typeDefs = gql`
  
 type Mutation{
     addUsers(detailsinp:UserInput):String
- 
 }
 
 `;
